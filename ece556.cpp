@@ -3,7 +3,7 @@
 #include "ece556.h"
 #include <new>
 #include <sys/stat.h>
-#include <fcntl.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,7 +11,7 @@
 #include <fstream>
 #include <iostream>
 
-using namespace std;
+
 
 #define LINE_SIZE 256
 int readBenchmark(const char *fileName, routingInst *rst){
